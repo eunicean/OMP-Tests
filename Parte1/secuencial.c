@@ -7,7 +7,7 @@
 int main() {
     double start, end;
     long long sum = 0;
-    int *giga = new int[N];
+    int *giga = malloc(N * sizeof(int));
 
     for (int i = 0; i < N; i++) {
         giga[i] = i;
