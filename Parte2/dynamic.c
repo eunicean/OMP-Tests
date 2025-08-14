@@ -22,6 +22,6 @@ int main() {
     end = omp_get_wtime();
     
     printf("sum: %lld\n", sum);
-    printf("Static: %f segundos\n", end - start);
+    printf("dynamic: %f segundos\n", end - start);
     return 0;
 }
